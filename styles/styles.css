@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400&family=Poppins:wght@400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/* Universal styles */
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +8,24 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+/* header styles  */
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.item {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.nav-items a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.nav-items {
+  display: flex;
+  gap: 20px;
 }
