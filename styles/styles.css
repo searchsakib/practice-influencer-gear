@@ -118,3 +118,68 @@ body {
   padding: 0 2rem;
 }
 /* sponsors styles ends here */
+
+/* popular collections starts here  */
+.popular-collection {
+  max-width: 1050px;
+  margin: 0 auto;
+  border: 1px solid blueviolet;
+}
+.collection-title {
+  color: var(--font-color-primary);
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2.75rem;
+}
+
+.card {
+  width: 20.5625rem;
+  height: 29.75rem;
+  border-radius: 0.3125rem;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.collection-img {
+  width: 18.75rem;
+  height: 16rem;
+  border-radius: 0.3125rem;
+  padding: 1rem 0.9rem 0 0.9rem;
+}
+.collection-description {
+  padding: 2rem 0.9rem 0rem 0.9rem;
+}
+.collection-description h3 {
+  color: var(--font-color-secondary);
+  font-size: 1.75rem;
+  font-weight: 500;
+  /* padding: 1rem 0 0.8rem 0; */
+}
+.collection-price {
+  color: var(--font-color-number);
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0.17rem 0 0.25rem 0;
+}
+.rating {
+  color: #5e6366;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.00625rem;
+  margin-left: 0.5rem;
+}
+.ratings {
+  margin: 0rem 0rem 0.1rem 0rem;
+}
+
+.ratings i {
+  font-size: 0.6rem;
+}
+.card-para {
+  color: var(--font-color-text);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.01575rem;
+}
+/* popular collections ends here  */
