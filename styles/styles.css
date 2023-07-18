@@ -55,18 +55,15 @@ body {
 
 /* banner style starts here  */
 .banner-section {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.banner-text {
-  width: 50%;
-}
+
 .banner-img-section {
-  width: 50%;
   background-image: url('../images/circle.svg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -75,9 +72,7 @@ body {
   margin-top: 3.14rem;
   margin-bottom: 3.14rem;
 }
-/* .banner-img-section img {
-  text-align: center;
-} */
+
 .banner-title {
   width: 36.375rem;
   color: var(--font-color-primary);
@@ -108,3 +103,18 @@ body {
   padding: 0 0 0 0.65rem;
 }
 /* banner style ends here  */
+
+/* sponsors styles starts here */
+
+.sponsors-img-container {
+  max-width: 1110px;
+  padding: 2rem 0;
+  margin: 4.31rem auto 4.31rem;
+  text-align: center;
+  border-top: 1px solid hsla(0, 0%, 50%, 0.299);
+  border-bottom: 1px solid hsla(0, 0%, 50%, 0.299);
+}
+.sponsor {
+  padding: 0 2rem;
+}
+/* sponsors styles ends here */

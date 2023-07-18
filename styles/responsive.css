@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px) {
+  /* banner & nav responsive */
+  .nav-section {
+    flex-direction: column;
+  }
+  .nav {
+    display: none;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+  .banner-img-section,
+  .banner-text {
+    display: inline-block;
+    width: auto;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .banner-title {
+    width: 25rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .banner-description {
+    width: 25rem;
+  }
+  .btn-primary {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  /* .banner-section {
+    flex-direction: column;
+  } */
+
+  /* sponsors section responsive  */
+  /* .sponsors-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  .sponsor {
+    padding: 0.5rem 1rem;
+    width: 6.5rem;
+  }
+}
