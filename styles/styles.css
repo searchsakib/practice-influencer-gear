@@ -121,9 +121,9 @@ body {
 
 /* popular collections starts here  */
 .popular-collection {
+  /* border: 1px solid blueviolet; */
   max-width: 1050px;
   margin: 0 auto;
-  border: 1px solid blueviolet;
 }
 .collection-title {
   color: var(--font-color-primary);
@@ -134,6 +134,7 @@ body {
 }
 
 .card {
+  /* border: 1px solid red; */
   width: 20.5625rem;
   height: 29.75rem;
   border-radius: 0.3125rem;
@@ -182,4 +183,12 @@ body {
   font-weight: 700;
   letter-spacing: 0.01575rem;
 }
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 0.5rem;
+  row-gap: 1.7rem;
+}
+
 /* popular collections ends here  */

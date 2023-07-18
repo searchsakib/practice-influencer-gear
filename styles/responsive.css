@@ -46,4 +46,25 @@
     padding: 0.5rem 1rem;
     width: 6.5rem;
   }
+
+  /* popular collections style starts here  */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 0.5rem;
+    row-gap: 1.7rem;
+  }
+  .collection-description h3,
+  .collection-price {
+    font-weight: 700;
+  }
+  .ratings {
+    margin-bottom: 0.8rem;
+  }
+  .para-block {
+    display: inline;
+  }
+
+  /* popular collections style ends here  */
 }
